@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<style>
+    body{
+        background-color: darkgray;
+    }
+    div{
+        background-color: cyan;
+        padding: 20px;
+        display: block;
+        margin-bottom: 500px;
+    }
+    .form {
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+}
+h2{
+    text-align: center;
+}
+button{
+    text-align: center;
+    width: 100%;
+}
+</style>
+<body>
+    <div class="form">
+    <h2>Apply here!</h2>
+    <form>
+        <label for="FName">First Name </label>
+        <input type="text" placeholder="Enter your First Name" id="FName"><br><br>
+        <label for="LName">Last Name </label>
+        <input type="text" placeholder="Enter your Last Name" id="LName"><br><br>
+        <label for="mailID">Email ID </label>
+        <input type="email" placeholder="Enter your Email ID" id="mailID"><br><br>
+        <label for="Password">Password </label>
+        <input type="password" placeholder="Enter you password" id="Name"><br><br>
+        <label for="gender">Gender </label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+        <label for="Name">Please select your proficient programming language </label><br>
+        <input type="checkbox" name="program">Python
+        <input type="checkbox" name="program">C#
+        <input type="checkbox" name="program">C++
+        <input type="checkbox" name="program">Julia
+        <input type="checkbox" name="program">Java<br><br>
+        
+        <label for="experience">Please tell us your experience </label>
+        <select>
+            <option>Beginner</option>
+            <option>Intermidiate</option>
+            <option>Expert</option>
+            <option>Pro Level</option>
+        </select><br><br>
+        <label for="resume">Upload your resume here </label><br>
+        <input type="file" name="resume" id="resume">
+        <br>
+        <br>
+        <button type="submit">Apply</button>
+        <br>
+         
+    </form>
+</div>
+</body>
+</html>
