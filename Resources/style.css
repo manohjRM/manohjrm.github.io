@@ -23,13 +23,18 @@
     display: none;
 }
 
+.con p{
+    text-align: left; 
+    font-size: 1.05rem;
+}
+
 .tag{
     margin-top: 20px;
     display: none;
     border-radius: 5px;
     padding-top: 135px;
     text-align: left;
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 .con1{
@@ -93,7 +98,7 @@
     margin: 2px;
     border-radius: 5px;
     border-width: 2px;
-    font-size: 60px;
+    font-size: 3rem;
 }
 .card{
     margin: 1rem;
