@@ -1,0 +1,206 @@
+.color{
+    background-color: #ff652f;
+    background: url("./bg.jpg") no-repeat fixed;
+    background-size: cover;
+    /* font-family: 'Rubik','Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif'; */
+    font-family: monospace;
+    /* font-size: 16px; */
+    color: white;
+    padding: 0px 50px 50px 50px;
+}
+.con{
+    text-align: center;
+    color: rgb(1, 1, 98);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding-top: 60px;
+    height: 350px;
+    min-height: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+.tag{
+    margin-top: 20px;
+    display: none;
+    border-radius: 5px;
+    padding-top: 135px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.con1{
+    /* background-color: rgba(255, 255, 255, 0.199); */
+    margin: 1rem;
+}
+
+.head{
+    height: 350px;
+    font-size: 50px;
+    padding-top: 150px;
+    background-color: rgba(255, 255, 255, 0.268);
+    margin: 20px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.title:hover span{
+    background-color: white;
+    color: rgb(1, 1, 98);
+}
+
+.links:hover span{
+    background-color: white;
+    color: rgb(1, 1, 98);
+}
+
+.intro:hover .head{
+    display: none;
+}
+
+
+.intro:hover .con{
+    display: block;
+}
+
+.intro:hover .tag{
+    display: block;
+}
+
+.con2{
+    background-color: white;
+    color: #9a1750;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-top: 10px;
+    height: auto;
+    min-height: 150px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 2px;
+    text-align: left;
+}
+
+.header{
+    position: fixed;
+}
+.myname{
+    background-color: rgba(255, 255, 255, 0.234);
+    padding: 250px 0px 250px 0px;
+    margin: 2px;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 60px;
+}
+.card{
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    border-color: rgb(55, 0, 255);
+    border-width: 2px;
+    padding: 10px 0px 0px 0px;
+    height: auto;
+    min-height: 350px;
+}
+
+.showdown{
+    display: none;
+}
+
+.card:hover .showdown{
+    /* background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.266), rgba(180, 179, 179, 0.54)); */
+    background-color: #ffb62f;
+    border-color: rgb(254, 85, 0);
+    border-width: 2px;
+    display: block;
+}
+.card-text{
+    text-align: justify;
+    margin: 1rem;
+}
+
+.card-text span{
+    background-color: rgb(254, 85, 0);
+    color: white;
+}
+
+.card-title{
+    color: #ff652f;
+    font-weight: bolder;
+}
+.navbar{
+    background-color: rgb(8, 56, 118);
+}
+
+
+.nav-link{
+    color: white;
+}
+
+#home{
+    color: #ff652f;
+}
+
+.con3{
+    background-color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border-radius: 2px;
+    margin: 2px;
+}
+.jobtitle{
+    background-image: linear-gradient(to bottom right, rgba(255, 247, 0, 0.904), rgb(255, 102, 0));
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    font-size: 16px;
+}
+.nav2{
+    background-color: rgba(251, 251, 251, 0.33);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-item{
+    text-align: center;
+    width: 120px;
+    color: white;
+}
+.nav-item:hover{
+    background-color: rgba(251, 251, 251, 0.33);
+    text-align: center;
+    border-radius: 2px;
+}
+#connect{
+    margin: 1rem;
+}
+#email{
+    text-align: center;
+    background-color: #ff0202;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+#linkedin{
+    text-align: center;
+    background-color: #0800ff;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+#github{
+    text-align: center;
+    background-color: #000000;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+#resume{
+    text-align: center;
+    background-color: #f6ef17;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
