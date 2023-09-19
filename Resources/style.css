@@ -1,5 +1,5 @@
 .color{
-    background-color: #ff652f;
+    background-color: #6a2fff;
     background: url("./bg.jpg") no-repeat fixed;
     background-size: cover;
     /* font-family: 'Rubik','Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif'; */
@@ -26,6 +26,10 @@
 .con p{
     text-align: left; 
     font-size: 1.05rem;
+}
+
+.con p span{
+    color: #e24000;
 }
 
 .tag{
@@ -144,6 +148,7 @@
 }
 .navbar{
     background-color: rgb(8, 56, 118);
+    font-size: 0.8rem;
 }
 
 
