@@ -19,8 +19,8 @@
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 20px;
-    display: none;
+    margin-top: 5rem;
+    /* display: none; */
 }
 
 .con p{
@@ -29,17 +29,31 @@
 }
 
 .tag{
-    margin-top: 20px;
-    display: none;
+    margin: 5rem 0.1rem 0rem 0.1rem;
+    /* display: none; */
     border-radius: 5px;
-    padding-top: 1.5rem;
-    text-align: left;
+    padding-top: 5rem;
+    text-align: center;
     font-size: 1.1rem;
+    background-color: #fb6022;
+    height: auto;
 }
 
-.con1{
-    /* background-color: rgba(255, 255, 255, 0.199); */
-    margin: 1rem;
+.bar{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.426);
+    margin: 0.5rem; 
+    padding: 0.5rem; 
+    border-radius: 0.3rem;  
+    border-color: #fb6022;
+}
+
+.bar:hover {
+    background-color: #fb6022;
+}
+
+.skills{
+    margin-top: 1rem;
 }
 
 .head{
@@ -61,17 +75,8 @@
     color: rgb(1, 1, 98);
 }
 
-.intro:hover .head{
-    display: none;
-}
-
-
-.intro:hover .con{
-    display: block;
-}
-
-.intro:hover .tag{
-    display: block;
+.intro{
+    padding-left: 5rem;
 }
 
 .con2{
@@ -95,13 +100,14 @@
 .myname{
     background-color: rgba(255, 255, 255, 0.234);
     padding: 200px 0px 200px 0px;
-    margin: 2px;
+    margin: 5rem 0.1rem 0rem 0.1rem;
     border-radius: 5px;
     border-width: 2px;
     font-size: 3rem;
+    border-top-right-radius: 100px;
 }
 .card{
-    margin: 1rem;
+    margin: 5rem 0.1rem 3rem 0.1rem;
     border-radius: 5px;
     text-align: center;
     border-color: rgb(255, 102, 0);
@@ -183,29 +189,53 @@
     border-radius: 2px;
 }
 #connect{
-    margin: 1rem;
+    margin: 5rem 1rem 1rem 1rem;
 }
+
 #email{
     text-align: center;
     background-color: #ff0202;
     padding: 20px 0px 20px 0px;
-    color: white;
 }
+
+#email:hover{
+    background-color: white;
+}
+
 #linkedin{
     text-align: center;
     background-color: #0800ff;
     padding: 20px 0px 20px 0px;
-    color: white;
 }
+
+#linkedin:hover{
+    background-color: white;
+}
+
 #github{
     text-align: center;
     background-color: #000000;
     padding: 20px 0px 20px 0px;
-    color: white;
 }
+
+#github:hover{
+    background-color: white;
+}
+
 #resume{
     text-align: center;
-    background-color: #f6ef17;
+    background-color: #0f9a00;
     padding: 20px 0px 20px 0px;
+}
+
+#resume:hover{
+    background-color: white;
+}
+
+#connect a{
     color: white;
+}
+
+#connect a:hover{
+    color: black;
 }
