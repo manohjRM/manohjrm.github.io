@@ -1,13 +1,22 @@
 .color{
-    background-color: #6a2fff;
-    background: url("./bg.jpg") no-repeat fixed;
-    background-size: cover;
+    
     /* font-family: 'Rubik','Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif'; */
     font-family: monospace;
     /* font-size: 16px; */
     color: white;
     padding: 0px 50px 50px 50px;
+    /* background: url("./bg.jpg") no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: darken; */
+    background-color: #1b03b6;
 }
+
+.bg{
+    background: url("./bg.jpg") no-repeat fixed;
+    background-size: cover;
+    backdrop-filter: blur(1.1rem);
+}
+
 .con{
     text-align: center;
     color: rgb(1, 1, 98);
@@ -60,49 +69,34 @@
     margin-top: 1rem;
 }
 
-.head{
-    height: auto;
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.268);
-    margin: 10px 0px 0px 0px;
-    border-radius: 5px;
+.title{
+    color: white;
+    font-family: monospace;
+    padding-left: 2rem;
 }
 
-.title:hover span{
-    background-color: white;
-    color: rgb(1, 1, 98);
+.dest{
+    color: white;
+    font-family: monospace;
+    padding-left: 2rem;
 }
 
-.links:hover span{
+/* .title:hover span{
+    background-color: white;
+    color: #1b03b6;
+} */
+
+/* .dest:hover span{
     background-color: white;
     color: rgb(1, 1, 98);
-}
+} */
 
 .intro{
     padding-left: 5rem;
 }
 
-.con2{
-    background-color: white;
-    color: #9a1750;
-    font-weight: bold;
-    border-radius: 15px;
-    padding-top: 10px;
-    height: auto;
-    min-height: 150px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 2px;
-    text-align: left;
-}
-
-.header{
-    position: fixed;
-}
 .myname{
-    background-color: rgba(255, 255, 255, 0.234);
+    background-color: rgba(255, 255, 255, 0.486);
     padding: 200px 0px 200px 0px;
     margin: 5rem 0.1rem 0rem 0.1rem;
     border-radius: 5px;
@@ -147,10 +141,24 @@
     font-weight: bolder;
 }
 .navbar{
-    background-color: rgb(8, 56, 118);
-    font-size: 0.8rem;
+    background-color: #1b03b6;
+    font-size: 1rem;
 }
 
+.nav2{
+    padding: 0.8rem;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.nav2 li{
+    display: inline;
+}
 
 .nav-link{
     color: white;
@@ -160,13 +168,6 @@
     color: #ff652f;
 }
 
-.con3{
-    background-color: white;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    border-radius: 2px;
-    margin: 2px;
-}
 .jobtitle{
     background-image: linear-gradient(to bottom right, rgba(255, 247, 0, 0.904), rgb(255, 102, 0));
     text-align: center;
@@ -177,15 +178,10 @@
 .btn{
     font-size: 16px;
 }
-.nav2{
-    background-color: rgba(251, 251, 251, 0.33);
-    border-radius: 5px;
-    padding: 5px;
-}
 
 .nav-item{
     text-align: center;
-    width: 120px;
+    width: 150px;
     color: white;
 }
 .nav-item:hover{
@@ -244,3 +240,23 @@
 #connect a:hover{
     color: black;
 }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: #fb6022; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
