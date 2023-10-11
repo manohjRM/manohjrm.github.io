@@ -8,7 +8,14 @@
     /* background: url("./bg.jpg") no-repeat fixed;
     background-size: cover;
     background-blend-mode: darken; */
-    background-color: #4bff03;
+    background-color: #8DDBE0;
+    /* font-style: italic; */
+}
+
+.navbar{
+    background-color: #8DDBE0;
+    font-size: 1rem;
+    /* border-bottom: 0.01rem solid rgb(255, 153, 1); */
 }
 
 .bg{
@@ -17,58 +24,114 @@
     backdrop-filter: blur(1.1rem);
 }
 
+.quality{
+    display: inline;
+    transform: scale(0.8);
+    translate: -50px 100px;
+    position: relative;
+    animation: myscale 1s;
+    animation-iteration-count: initial;
+    filter: drop-shadow(2px 2px 2px #00000064) hue-rotate(340deg) saturate(30%) invert(6%) drop-shadow(2px 2px 2px #00000064);
+}
+
+@keyframes myscale {
+    from {transform: scale(0.5);}
+    to {translate: -50px 100px;transform: scale(0.8);}
+}
+
 .con{
     text-align: center;
-    color: rgb(1, 1, 98);
-    background-color: rgb(255, 255, 255);
+    color: #090909;
+    background-color: #D3FFE9;
     border-radius: 5px;
     padding-top: 2rem;
     height: auto;
+    border-left: 0.3rem solid #4B5043;
+    border-right: 0.3rem solid #4B5043;
     /* min-height: 100px; */
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 5rem;
+    margin-top: 0.5rem;
     /* display: none; */
 }
 
+.con2{
+    text-align: center;
+    /* color: #090909; */
+    /* background-color: #D3FFE9; */
+    color: #D3FFE9;
+    /* border-radius: 5px; */
+    /* height: auto; */
+    /* display: none; */
+    /* padding: 0; */
+}
+
+.con2 .gitbtn{
+    background-color: #264653;
+    padding: 2rem 0rem 2rem 0rem;
+    text-decoration: unset;
+    border-radius: 1rem;
+    border: 0.2rem solid #8DDBE0;
+}
+
+.gitbtn a{
+    color: #D3FFE9;
+    text-decoration: unset;
+}
+
+.con2 .gitbtn:hover{
+    background-color: #1e3842;
+    transform: scale(1.025);
+    filter: drop-shadow(1px 1px 3px black);
+    border: 0.2rem solid white;
+}
+
 .con p{
-    text-align: left; 
+    text-align: left;
     font-size: 1.05rem;
 }
 
 .con p span{
-    color: #e24000;
+    color: #4B5043;
 }
 
 .tag{
-    margin: 5rem 0.1rem 0rem 0.1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
     /* display: none; */
     border-radius: 15px;
-    padding-top: 5rem;
+    border-bottom: 0.3rem solid #090909;
+    padding-top: 1rem;
+    padding-left: 1rem;
     text-align: center;
     font-size: 1.1rem;
-    background-color: rgba(255, 255, 255, 0.350);
+    background-color: #4B5043;
     height: auto;
     font-weight: bold;
-    color: #e24000;
-}
-
-.bar{
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.426);
-    margin: 0.5rem; 
-    padding: 0.5rem; 
-    border-radius: 0.3rem;  
+    color: #D3FFE9;
+    /* font-style: italic; */
 }
 
 .bar:hover {
-    background-color: #1b03b6;
+    background-color: #264653;
     color: white;
+    filter: drop-shadow(1px 1px 3px black);
+    transform: scale(1.025);
+}
+
+.bar {
+    background-color: #264653;
+    color: white;
+    margin: 0.5rem; 
+    padding: 0.5rem; 
+    border-radius: 0.3rem;
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .skills{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     color: #e24000;
 }
 
@@ -76,81 +139,108 @@
     color: white;
     font-family: monospace;
     padding-left: 2rem;
+    position: relative;
+    animation: mytitle 2s;
+    animation-iteration-count: initial;
+    filter: drop-shadow(1px 1px 1px #00000064);
+}
+
+@keyframes mytitle {
+    from {left: -50rem; color: #090909;}
+    to {left: 0rem;}
 }
 
 .dest{
-    color: white;
+    color: #253D5B;
     font-family: monospace;
     padding-left: 2rem;
+    position: relative;
+    animation: mytitle 1s;
+    animation-iteration-count: initial;
+    text-decoration: underline;
+    filter: drop-shadow(1px 1px 3px rgba(255, 255, 255, 0.536));
 }
 
 /* .title:hover span{
     background-color: white;
     color: #1b03b6;
-} */
-
-/* .dest:hover span{
-    background-color: white;
-    color: rgb(1, 1, 98);
-} */
-
-.intro{
-    padding-left: 5rem;
 }
+
+.dest:hover span{
+    background-color: #1b03b6;
+    color: white;
+} */
 
 .myname{
     /* background-color: rgba(255, 255, 255, 0.486); */
-    padding: 200px 0px 200px 0px;
+    padding: 50px 0px 50px 0px;
     margin: 5rem 0.1rem 0rem 0.1rem;
     border-radius: 5px;
     border-width: 2px;
     font-size: 3rem;
-    border-top-right-radius: 100px;
 }
+
 .card{
-    margin: 5rem 0.1rem 3rem 0.1rem;
+    /* margin: 0.3rem 0.1rem 3rem 0.1rem; */
     border-radius: 5px;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    height: auto;
-    min-height: 350px;
+    /* padding: 10px 0px 0px 0px; */
+    height: 400px;
+    margin-top: 1rem;
+    /* height: auto; */
+    /* min-height: 350px; */
     filter: drop-shadow(5px 8px 5px #00000064);
+    background-color: #D3FFE9;
+    /* border-top-right-radius: 60px; */
+    border-left: 0.4rem solid #4B5043;
+    border-right: 0.4rem solid #4B5043;
+}
+
+.card:hover{
+    transform: scale(1.025);
 }
 
 .showdown{
     display: none;
 }
 
-.card:hover .showdown{
-    /* background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.266), rgba(180, 179, 179, 0.54)); */
-    background-color: #ffb62f;
-    border-color: rgb(254, 85, 0);
-    border-width: 2px;
-    display: block;
-}
 .card-text{
     text-align: justify;
     margin: 0.5rem;
-    color: #e24000;
+    color: #090909;
+    font-style: italic;
 }
 
 .card-text:hover span{
-    background-color: #1b03b6;
+    background-color: #e24000;
     color: white;
 }
 
 .card-title{
-    color: rgb(1, 1, 98);
+    color: #D3FFE9;
     font-weight: bolder;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: #090909;
+    border-radius: 0.3rem;
 }
-.navbar{
-    background-color: #4bff03;
-    font-size: 1rem;
+
+.sklbtn{
+    background-color: #4B5043;
+    padding: 1rem 0rem 1rem 0rem;
+    /* border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem; */
+    color: white;
+    text-decoration: unset;
+}
+
+.sklbtn:hover{
+    background-color: #213b45;
 }
 
 .skills p{
-    color: #1b03b6;
+    color: #090909;
+    margin-top: 2rem;
 }
 
 .nav2{
@@ -173,7 +263,13 @@
 }
 
 #home{
-    color: #ff652f;
+    color: #090909;
+}
+
+#home:hover{
+    color: white;
+    background-color: #090909;
+    border-radius: 0.1rem;
 }
 
 .jobtitle{
@@ -197,6 +293,7 @@
     text-align: center;
     border-radius: 2px;
 }
+
 #connect{
     margin: 5rem 1rem 1rem 1rem;
 }
@@ -257,8 +354,8 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: white; /* Set a background color */
-    color: #fb6022; /* Text color */
+    background-color: #D3FFE9; /* Set a background color */
+    color: #090909; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 100px; /* Rounded corners */
@@ -266,5 +363,6 @@
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #090909; /* Add a dark-grey background on hover */
+    color: #D3FFE9;
   }

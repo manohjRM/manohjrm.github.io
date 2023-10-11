@@ -25,7 +25,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-lg-5">
             <li class="nav-item">
               <a class="nav-link active" id="home" aria-current="page" href="#">Home</a>
             </li>
@@ -35,10 +35,10 @@
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Referrals</a>
               </li> -->
             <li class="nav-item">
@@ -57,12 +57,21 @@
     </div> -->
     <div class="container-fluid">
         <div class="myname">
-            <p class="title" style="text-align: left; font-weight: bold;"><span>Manoj Kumar R M,</span></p>
-            <p class="dest" style="text-align: left; color: #1b03b6; font-size: 40px;">
+            <div class="row">
+                <div class="col-lg-7">
+                    <p class="dest" style="text-align: left;  font-size: 32px;"><span>Hi there!</span></p>
+                    <p class="dest" style="text-align: left; font-size: 32px;"><span>You are here to explore my expertise...</span></p>
+                    <p class="title" style="text-align: left; font-weight: bold; color: #FFDC5E;"><span>Manoj Kumar R M</span></p>
+                    <p class="title" style="text-align: left; color: #4B5043; font-size: 32px;">
+                        <span>"A Software Quality Test Engineer"</span>
+                    </p>
+                </div>
+                <div class="col-lg-4 quality">
+                    <img src="Resources/quality.png" alt="Quality">
+                </div>
+            </div>         
                 <!-- Mail Me @ manohjkumaar.rm@gmail.com<br><br> -->
                 <!-- <a href="ApplicationForm.html">Say about you</a> -->
-                <span>A Software Quality Test Engineer</span>
-            </p>
             <!-- <div class="jobtitle">
                 SOFTWARE QUALITY TEST ENGINEER
             </div> -->
@@ -70,10 +79,10 @@
         
         <div class="container-fluid">
             <div class="row intro" id="about">
-                <div class="col-lg-2 tag">
+                <div class="col-md-4 offset-md-4 tag">
                     <p><span>Introduction</span></p>
                 </div>
-                <div class="col-lg-9 con">
+                <div class="col-sm-12 con">
                     <p>
                         -- Proficient in Software testing with strong interpersonal and team management skills, 
                         analyzing FRS and use case documents, defining Test scenarios, writing, and 
@@ -91,11 +100,11 @@
                     <p>Introduction</p>
                 </div> -->
             </div>
-            <div class="row intro" id="about">
-                <div class="col-lg-2 tag">
+            <div class="row intro">
+                <div class="col-md-4 offset-md-4 tag">
                     <p><span>Roles & Responsibilities</span></p>
                 </div>
-                <div class="col-lg-9 con">
+                <div class="col-sm-12 con">
                     <p>
                         -- Managed teams of three people and tracked project progress. 
                     </p>
@@ -111,18 +120,23 @@
                 </div> -->
             </div>
             <div class="row" id="skills">
+                <div class="col-md-4 offset-md-4 tag">
+                    <p><span>Skill Set</span></p>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Manual Testing</h5>
                             <p class="card-text"></p>
                             <div class="card-text">
-                                <p>Working on many projects, I have extensive experience analysing FRS 
+                                <p>Have extensive experience in analysing FRS 
                                     and use case documents, building test scenarios, developing and executing various types of test cases, 
                                     participating in reviews, defect tracking, and preparing progress reports.</p>
                             </div>
                         </div>
-                        <a href="#mantest" class="btn btn-primary">Skills</a>
+                        <a href="#mantest" class="sklbtn">Skills</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -132,14 +146,14 @@
                             <p class="card-text"></p>
                             <div class="card-text">
                                 <p>
-                                    Great exposure in Automatating both Web and Mobile Automation and 
+                                    Great exposure in Automating both Web and Mobile Automation and 
                                     able to write Test Scripts using <span>Python, Java and JavaScript</span>.
                                     Able to automate APIs using <span>Postman</span> and the <span>ThunderClient</span>.
                                     Exposure in <span>Cypress, Selenium, Playwright, WebDriverIO, Appium</span>.
                                 </p>
-                            </div> 
+                            </div>
                         </div>
-                        <a href="#autotest" class="btn btn-primary">Skills</a>
+                        <a href="#autotest" class="sklbtn">Skills</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -155,7 +169,7 @@
                                 </p>
                             </div>
                         </div>
-                        <a href="#pro" class="btn btn-primary">Skills</a>
+                        <a href="#pro" class="sklbtn">Skills</a>
                     </div>
                 </div>
             </div>
@@ -304,58 +318,153 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="projects">
+            <div class="col-md-4 offset-md-4 tag">
+                <p><span>Projects</span></p>
+            </div>
             <div class="container-fluid body-content">
                 <div>
-                    <!-- <div class="row" id="projects">
-                        <div class="col-lg-12">
-                            <div style="text-align: left;" class="con">
-                                <h1 style="text-align: left; font-size: 24px; font-weight: bold;">PROJECTS</h1>
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="con2">
-                                            <div class="content-center">
-                                                Selenium - TestNG Framework: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/OrangeHRM_Automation">Source Code</a>
-                                            </div>
-                                        </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Field Service Management</h5>
+                                    <p class="card-text"></p>
+                                    <div class="card-text">
+                                        <p>
+                                            Field Service Management is a mobile application which helps the field engineer to capture 
+                                            the work order status assigned to him/her. The app is developed to maintain 
+                                            the track of the repair done for the machine. It also includes the web-based application where 
+                                            the service provider can assign the work order to the field service engineer. 
+                                        </p>
+                                        <a href="#" style="text-align: right; padding-right: 5px; text-decoration: unset;">More >>></a>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="con2">
-                                            <div class="content-center">
-                                                WebDriverIO - Mocha Framework: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/wdio_OHRM">Source Code</a>
-                                            </div>
-                                        </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Appointment Booking</h5>
+                                    <p class="card-text"></p>
+                                    <div class="card-text">
+                                        <p>
+                                            Appointment Booking System is a web-based application which helps the 
+                                            customer to book their appointment through it. Appointment booking system was developed to make 
+                                            the customer comfortable and to avoid the waiting time in service center.
+                                        </p>
+                                        <a href="#" style="text-align: right; padding-right: 5px; text-decoration: unset;">More >>></a>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="con2">
-                                            <div class="content-center">
-                                                Selenium - PyTest Framework: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/SeleniumWithPython">Source Code</a>
-                                            </div>
-                                        </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Material Management System</h5>
+                                    <p class="card-text"></p>
+                                    <div class="card-text">
+                                        <p>
+                                            Material Management System is a web-based application which helps business to manage key functions 
+                                            such as product planning, parts purchasing, maintaining inventories, interacting with suppliers, 
+                                            providing customer service, and tracking orders, which helps senior management to utilize the resources better.
+                                        </p>
+                                        <a href="#" style="text-align: right; padding-right: 5px; text-decoration: unset;">More >>></a>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="con2">
-                                            <div class="content-center">
-                                                Appium - TestNG Framework: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/Appium_Java">Source Code</a>
-                                            </div>
-                                        </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Service Now</h5>
+                                    <p class="card-text"></p>
+                                    <div class="card-text">
+                                        <p>
+                                            Service Now application(ITSM) is a SAAS product which is used to manage IT services. 
+                                            In this application, functional testing of different modules’ workflow were performed- 
+                                            Service desk, Demand Management, Change Management, Incident Management, Problem, 
+                                            Knowledge, Request (RITM), Service Catalogue.
+                                        </p>
+                                        <a href="#" style="text-align: right; padding-right: 5px; text-decoration: unset;">More >>></a>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="con2">
-                                            <div class="content-center">
-                                                Deep Learning - Object Identification: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/ObjectIdentification">Source Code</a>
-                                            </div>
-                                        </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Job Management System</h5>
+                                    <p class="card-text"></p>
+                                    <div class="card-text">
+                                        <p>
+                                            Job Management System is a web-based application which is used to maintain the vendor details, job details and
+                                            the contract employees login and log-off informations.
+                                        </p>
+                                        <a href="#" style="text-align: right; padding-right: 5px; text-decoration: unset;">More >>></a>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="con2">
-                                            <div class="content-center">
-                                                Analyzing COVID-19 death rates: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/COVID">Source Code</a>
-                                            </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">E-Commerce Discount Management</h5>
+                                    <p class="card-text"></p>
+                                    <div class="card-text">
+                                        <p>
+                                            In E-Commerece business, discount plays a crucial role to attract the end users. The web based application is 
+                                            developed to manage and configure the e-commerce website especially the discounts for various products.
+                                        </p>
+                                        <a href="#" style="text-align: right; padding-right: 5px; text-decoration: unset;">More >>></a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="col-md-4 offset-md-4 tag">
+                                <p><span>Automation Testing Projects</span></p>
+                            </div>
+                            <div class="row con2">
+                                
+                                <div class="col-md-3 gitbtn">
+                                    <a class="btn" href="https://github.com/manohjRM/OrangeHRM_Automation">Selenium - TestNG</a>
+                                </div>
+                                <div class="col-md-3 gitbtn">
+                                    <a class="btn" href="https://github.com/manohjRM/wdio_OHRM">WebDriverIO - Mocha</a>
+                                </div>
+                                <div class="col-md-3 gitbtn">
+                                    <a class="btn" href="https://github.com/manohjRM/SeleniumWithPython">Selenium - PyTest</a>
+                                </div>
+                                <div class="col-md-3 gitbtn">
+                                    <a class="btn" href="https://github.com/manohjRM/Appium_Java">Appium - TestNG</a>
+                                </div>
+                                <!-- <div class="col-lg-4">
+                                    <div class="con2">
+                                        <div class="content-center">
+                                            Deep Learning - Object Identification: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/ObjectIdentification">Source Code</a>
                                         </div>
                                     </div>
                                 </div>
-                                <br> -->
+                                <div class="col-lg-4">
+                                    <div class="con2">
+                                        <div class="content-center">
+                                            Analyzing COVID-19 death rates: <br> <br> <a class="btn btn-primary" href="https://github.com/manohjRM/COVID">Source Code</a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="text-align: left;" class="row">
+                                
+                                <br>
                                 <!-- <div class="row">
                                     <div class="col-lg-4">
                                         <div class="con2">
@@ -378,10 +487,10 @@
                                             </div>
                                         </div>
                                     </div>                                       
-                                </div>
+                                </div> -->
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div id="connect">
                     <div class="row">
@@ -412,7 +521,7 @@
                         <div class="col-lg-3" id="resume">
                             <a href="./Resources/Manoj Kumar R M_QA.docx">
                                 <div>
-                                    <h6><span>Download my profile here</span></h6>
+                                    <h6><span>Check my profile here</span></h6>
                                     <h4><span>Resume</span></h4>
                                 </div>
                             </a>
