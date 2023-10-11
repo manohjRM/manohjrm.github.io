@@ -185,10 +185,10 @@
     border-radius: 5px;
     text-align: center;
     /* padding: 10px 0px 0px 0px; */
-    height: 400px;
+    /* height: 400px; */
     margin-top: 1rem;
-    /* height: auto; */
-    /* min-height: 350px; */
+    height: auto;
+    min-height: 350px;
     filter: drop-shadow(5px 8px 5px #00000064);
     background-color: #D3FFE9;
     /* border-top-right-radius: 60px; */
